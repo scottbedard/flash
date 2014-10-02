@@ -14,7 +14,6 @@ Flash::error('On no, something failed!');
 Flash::info('Your account has been created!');
 Flash::success('Hooray, everything worked!');
 Flash::warning('You left a field blank.');
-);
 ```
 You may also add custom status types using the message() method
 ```php
