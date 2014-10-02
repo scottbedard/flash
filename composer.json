@@ -1,0 +1,25 @@
+{
+    "name": "bedard/flash",
+    "description": "Super simple flash messaging",
+    "authors": [
+        {
+            "name": "Bedard",
+            "email": "scott@scottbedard.net"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "flash",
+        "status"
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Bedard\\Flash": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
